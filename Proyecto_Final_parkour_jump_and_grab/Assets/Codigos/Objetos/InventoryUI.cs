@@ -59,13 +59,8 @@ public class InventoryUI : MonoBehaviour
             slots[2].SetItem(flechaItems[0], flechaItems.Length);
         
         if(posionSaltoItems.Length > 0)
-         {
             slots[3].SetItem(posionSaltoItems[0], posionSaltoItems.Length); 
-            Debug.Log("HOLA");
-            //m_WalkSpeed = 10;
-         }
 
-       
         if(posionVelocidadItems.Length > 0)
             slots[4].SetItem(posionVelocidadItems[0], posionVelocidadItems.Length); 
 
